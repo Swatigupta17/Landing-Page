@@ -1,0 +1,375 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+   
+}
+/*navbar*/
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #ffb300;
+    box-shadow: 0 5px 15 px regba(0,0,0,0.6);
+    /*to make navbar sticky*/
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left:0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navbar li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0 40px;
+}
+#navbar li a{
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: Black;
+    transition: 0.3s ease;
+    font-size: 18px;
+}
+#navbar li a:hover{
+    color: #088178;
+}
+
+/*logo*/
+#header img{
+    height: 30px;
+    width: 100px;
+}
+/*after navbar big image section*/
+#hero{
+    background-image: url("istockphoto-1204923574-170667a.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+/* big image caption section*/
+#hero h4{
+    font-size: 30px;
+   
+}
+#hero h2{
+    font-size: 50px;
+   
+}
+#hero p{
+    font-size: 20px;
+    color: grey;
+}
+#hero h1{
+    font-size: 40px;
+    color: green;
+   
+}
+#hero h4,h2,h1,p{
+    background-color: #ffff0000;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+   
+}
+#hero button{
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:2px solid;
+    border-radius: 10px;
+    color: green;
+    padding: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section-p1{
+    padding: 8px;
+}
+/*promotions images nd all*/
+.febox img{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+}
+#feature{
+    background-color: #ffb300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.febox{
+    width: 150px;
+    text-align: center;
+    padding: 25px;
+    margin:20px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    background-color:#ffb300;
+}
+#feature .febox h6{
+    margin-top: 20px;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: green;
+    background-color: #cce7d0;
+    padding-top: 10px;
+    display: inline-block;
+}
+/*feature section*/ 
+#product1{
+    background-color: #ffb300;;
+    text-align: center;
+    
+}
+#product1 .pro-container{
+    display:flex;
+   
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 h2{
+    font-size: 40px;
+}
+#product1 p{
+    font-size: 20px;
+}
+#product1 .pro{
+    width: 300px;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid wheat;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.2);
+    margin:15px;
+    transition: 0.2s ease;
+    position: relative;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .des span{
+    color: black;
+    font-size: 12px;
+}
+#product1 .pro img{
+    width:100px;
+    height:200px;
+    border-radius: 20px;
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    color: green;
+    font-size: 20px;
+    font-weight: 700px;
+}
+#product1 .pro .des i{
+font-size: 15px;
+color:rgb(228,214,24);
+}
+.pro span{
+    background-color: #ffb300;;
+}
+#product1 .pro a >i{
+    background-color: white;
+}
+#product1 .pro a >i:hover{
+    background-color: green;
+}
+#product1 .pro a:hover{
+    background-color: green;
+}
+#product1 .pro a{
+    background-color: white;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: black;
+    border: 1px solid lightgreen;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.section-m1{
+    margin: 40px 0;
+    
+}
+/*repair nd upto*/
+.ban{
+    padding-top: 90px;
+    margin: 0px;
+    background-color: #ffb300;
+}
+#banner{
+    
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url("u.webp") ;
+    width: 100%;
+    color: white;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h2 >span{
+    background-color: black;
+}
+#banner h2 >span{
+    color: red;
+    font-size: 25px;
+}
+#banner h4{
+     font-size: 25px;
+    background-color: black;
+}
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+button.normal:hover{
+    background-color: green;
+}
+#new{
+    background-color: #ffb300;
+    text-align: center;
+}
+#new h2{
+    padding-top: 40px;
+    font-size: 40px;
+}
+#new p{
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+#bannersection{
+    background-color: wheat;
+}
+.section-p2{
+    padding: 50px;
+    padding-top: 30px;
+}
+/* footer*/
+
+footer{
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    background-color: grey;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+footer .col .log{
+    height:45px;
+    width:150px;
+    margin-bottom: 30px;
+}
+footer h4{
+    background-color: grey;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+footer p{
+    background-color: grey;
+    font-size: 16 px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    background-color: grey;
+    font-size:  16px;
+    text-decoration: none;
+    color:  black;
+    margin-bottom: 10px;
+}
+.row img{
+    background-color: grey;
+    height:60px;
+    width:100px;
+    margin: 10px 0 15px 0;
+}
+.visa{
+    background-color: grey;
+    height:60px;
+    width:200px;
+    margin: 10px 0 15px 0;
+}
+footer .follow{
+    background-color: grey;
+    margin-top: 20px;
+}
+footer .follow i{
+    background-color: grey;
+    color: black;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .follow i:hover,footer a:hover
+{
+    color: #ffb100bd;
+}
+.row{
+    background-color: grey;
+}
+.col p strong{
+    background-color: grey;
+}
+.col .icon{
+    background-color: grey;
+}
+/*respnsive design*/
+/*@media(max-width:799px){
+    #navbar{
+        background-color: ;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start; 
+        position: fixed;
+        top:0;
+        height:100vh;
+        right:0px;
+        width:300px;
+        background-color: #cce7d0;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 80px 0 0 10px;
+    }
+}*/
